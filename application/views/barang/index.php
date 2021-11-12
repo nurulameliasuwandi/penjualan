@@ -66,9 +66,9 @@
                                                 <td><?= $brg['nama_barang']; ?></td>
                                                 <td><?= $brg['harga']; ?></td>
                                                 <td><?= $brg['stok']; ?></td>
-                                                <td> <a href="http://localhost/penjualan/Barang/detail/<?= $brg['id_barang']; ?>" class="btn btn-primary">Detail</a></td>
-                                                <td> <a href="http://localhost/penjualan/Barang/ubah/<?= $brg['id_barang']; ?>" class="btn btn-success">Ubah</a></td>
-                                                <td> <a href="http://localhost/penjualan/Barang/hapus/<?= $brg['id_barang']; ?>" class="btn btn-danger" onclick="return confirm ('Apakah Yakin Akan Dihapus?')">Hapus</a></td>
+                                                <td> <a href="http://localhost/penjualan/Barang/detail/<?= $brg['id_barang']; ?>" class="btn btn-primary">Detail</a>
+                                                     <a href="http://localhost/penjualan/Barang/ubah/<?= $brg['id_barang']; ?>" class="btn btn-success">Ubah</a>
+                                                     <a href="http://localhost/penjualan/Barang/hapus/<?= $brg['id_barang']; ?>" class="btn btn-danger" onclick="return confirm ('Apakah Yakin Akan Dihapus?')">Hapus</a></td>
                                             </tr>
                                           <?php endforeach ?>
                                         </tr>
